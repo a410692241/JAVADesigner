@@ -2,5 +2,5 @@ package com.wei.javadesigner.strategy;
 
 public interface Strategy {
 
-    void run();
+    void run(Price price);
 }

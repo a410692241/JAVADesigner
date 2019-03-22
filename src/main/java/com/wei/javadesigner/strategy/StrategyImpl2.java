@@ -3,7 +3,7 @@ package com.wei.javadesigner.strategy;
 
 public class StrategyImpl2 implements Strategy {
     @Override
-    public void run() {
-        System.out.println("run2");
+    public void run(Price price) {
+        System.out.println("使用美元支付" + price.getUsername() + ":" + price.getAmount() + "元");
     }
 }
