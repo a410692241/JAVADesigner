@@ -4,8 +4,7 @@ public class Consumer {
     public static void main(String[] args) {
         KeyBoard receiver = new GigaKeyBoard();
         Mouse razyMouse = new RazyMouse();
-        Commond commond = new CommondImpl(receiver,razyMouse);
-        Invorker invorker = new Invorker(commond);
-        invorker.biosRun();
+        Box box = new Box(new CommondMouse(razyMouse));
+        box.execute();
     }
 }

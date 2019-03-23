@@ -3,14 +3,15 @@ package com.wei.javadesigner.commond;
 public class Box {
     private Commond commond;
 
-    public Box(Commond commond) {
+    public Box(CommondMouse commond) {
         this.commond = commond;
     }
 
-    public void resetKeyBoard() {
-        commond.executeMouse();
+    public Box(CommondKeyBoard commond) {
+        this.commond = commond;
     }
-    public void resetMouse() {
+
+    public void execute() {
         commond.execute();
     }
 }

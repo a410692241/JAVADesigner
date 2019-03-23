@@ -9,7 +9,6 @@ public class Invorker {
 
     public void biosRun() {
         commond.execute();
-        commond.executeMouse();
     }
 
 }
