@@ -7,10 +7,6 @@ public class Box {
         this.commond = commond;
     }
 
-    public Box(CommondKeyBoard commond) {
-        this.commond = commond;
-    }
-
     public void execute() {
         commond.execute();
     }
