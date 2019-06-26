@@ -17,7 +17,7 @@ public class UrgencyMessage extends AbstractMessage {
      * @return 包含监控到的数据对象，这里示意一下，所以用了Object
      */
     public Object watch(String messageId) {
-    //获取相应的数据，组织成监控的数据对象，然后返回
+        //获取相应的数据，组织成监控的数据对象，然后返回
         return null;
     }
 }
