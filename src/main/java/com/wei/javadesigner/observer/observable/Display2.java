@@ -5,6 +5,9 @@ import java.util.Observer;
 
 public class Display2 implements Observer,Display {
     Observable observable;
+    /**
+     * 湿度
+     */
     private Integer humidity;
     private Integer temperature;
 

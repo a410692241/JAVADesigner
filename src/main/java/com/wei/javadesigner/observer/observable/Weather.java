@@ -12,7 +12,8 @@ public class Weather extends Observable {
      */
     public void measurementsChanged() {
         setChanged();
-        notifyObservers();
+        Display1 display1 = new Display1(this);
+        notifyObservers(display1);
     }
 
     public void setMeasurementsChanged(Integer temperature, Integer humidity) {
